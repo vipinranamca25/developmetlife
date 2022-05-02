@@ -1,5 +1,5 @@
 package com.example.demo.controller;
-import org.springframework.web.bind.annotation.*;
+//import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import com.example.demo.entity.MetlifeUserProfiles;
 import com.example.demo.userServiceDeclaration.UserServiceDeclaration;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/", maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:3000/", maxAge = 3600)
 @RequestMapping("/UserProfiles")
 public class UserProfileController {
 	@Autowired
